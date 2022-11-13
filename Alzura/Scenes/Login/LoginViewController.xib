@@ -43,7 +43,7 @@
                     <rect key="frame" x="45" y="233.33333333333334" width="300" height="34.000000000000028"/>
                     <color key="backgroundColor" systemColor="systemGray5Color"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits"/>
+                    <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                 </textField>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yba-6d-K2x">
                     <rect key="frame" x="95" y="299.33333333333331" width="200" height="35"/>

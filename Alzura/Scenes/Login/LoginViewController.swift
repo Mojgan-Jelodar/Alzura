@@ -8,7 +8,9 @@
 import UIKit
 import Combine
 final class LoginViewController: UIViewController {
-    
+    deinit {
+        print("Deinit:: \(self)")
+    }
     @IBOutlet weak var loginBtn: UIButton!
     @IBOutlet weak var msgLabel: UILabel!
     @IBOutlet weak var usernameTextfield: UITextField! {

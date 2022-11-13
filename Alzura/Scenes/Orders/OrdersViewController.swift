@@ -9,8 +9,11 @@ import UIKit
 import Combine
 
 final public class OrdersViewController: UIViewController {
-    private let cellIdentifer = "\(OrderView.self)"
+    deinit {
+        print("Deinit:: \(self)")
+    }
     
+    private let cellIdentifer = "\(OrderView.self)"
     private var viewModel : OrdersViewModel!
     private var subscribers : Set<AnyCancellable> = .init()
     
