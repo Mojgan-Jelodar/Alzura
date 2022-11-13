@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "r.swift.library",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mac-cain13/R.swift.Library",
+      "state" : {
+        "branch" : "minimum-deployment-target",
+        "revision" : "4d9815250b2da7ded94ba3936a83d88f5ddfdb0e"
+      }
+    }
+  ],
+  "version" : 2
+}
